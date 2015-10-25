@@ -1,0 +1,44 @@
+ReadAllBytesAttachment NameD:\FX_SQA_RIL_CES\1176967095.pdf
+ReadAllBytesAttachment NameD:\FX_SQA_RIL_CES\1735825286.pdf
+ReadAllBytesAttachment NameD:\FX_SQA_RIL_CES\1403342425.pdf
+Total Page ErrorSystem.Exception: Please install GdPicture.NET Package on your computer for development purpose from: http://www.gdpicture.com/download/download-gdpicturenet.php-License Agreement: http://www.gdpicture.com/license/license-gdpicture-dotnet.php-Error code: 1
+   at gdpicture_᜻.gdpicture_ᜀ()
+   at gdpicture_᜻.gdpicture_ᜈ()
+   at gdpicture_᜻.gdpicture_ᜊ()
+   at gdpicture_᜻.gdpicture_ᜦ()
+   at GdPicture10.GdPicturePDF.LoadFromStream(Stream Stream)
+   at Gss.Oasis.Core.Server.Services.ResourceService.GetPageUsingAccusoft(String pAttachmentName, String pAT_Code, Int32 pPageno, String pKey, String pApplication_setup, String pAccusoftHostName) in D:\OASIS 5.0\Development\Windows\FX\Gss.Oasis.Core\Gss.Oasis.Core.Server.Services\Server.Services\ResourceService.vb:line 585
+GdpicturePdfBack  Newpdf ErrorSystem.Exception: Please install GdPicture.NET Package on your computer for development purpose from: http://www.gdpicture.com/download/download-gdpicturenet.php-License Agreement: http://www.gdpicture.com/license/license-gdpicture-dotnet.php-Error code: 1
+   at gdpicture_᜻.gdpicture_ᜀ()
+   at gdpicture_᜻.gdpicture_ᜈ()
+   at gdpicture_᜻.gdpicture_ᜊ()
+   at gdpicture_᜻.gdpicture_ᜦ()
+   at GdPicture10.GdPicturePDF.gdpicture_ᜀ(Boolean A_0, Boolean A_1)
+   at GdPicture10.GdPicturePDF.NewPDF(Boolean PDFA)
+   at GdPicture10.GdPicturePDF.NewPDF()
+   at Gss.Oasis.Core.Server.Services.ResourceService.GetPageUsingAccusoft(String pAttachmentName, String pAT_Code, Int32 pPageno, String pKey, String pApplication_setup, String pAccusoftHostName) in D:\OASIS 5.0\Development\Windows\FX\Gss.Oasis.Core\Gss.Oasis.Core.Server.Services\Server.Services\ResourceService.vb:line 594
+GdpicturePdfBack  ClonePage ErrorSystem.Exception: Please install GdPicture.NET Package on your computer for development purpose from: http://www.gdpicture.com/download/download-gdpicturenet.php-License Agreement: http://www.gdpicture.com/license/license-gdpicture-dotnet.php-Error code: 1
+   at gdpicture_᜻.gdpicture_ᜀ()
+   at gdpicture_᜻.gdpicture_ᜈ()
+   at gdpicture_᜻.gdpicture_ᜊ()
+   at gdpicture_᜻.gdpicture_ᜦ()
+   at GdPicture10.GdPicturePDF.ClonePage(GdPicturePDF FromPDF, Int32 PageNo)
+   at Gss.Oasis.Core.Server.Services.ResourceService.GetPageUsingAccusoft(String pAttachmentName, String pAT_Code, Int32 pPageno, String pKey, String pApplication_setup, String pAccusoftHostName) in D:\OASIS 5.0\Development\Windows\FX\Gss.Oasis.Core\Gss.Oasis.Core.Server.Services\Server.Services\ResourceService.vb:line 600PageNo0
+GdpicturePdfBack ResetGraphicsStateSystem.Exception: Please install GdPicture.NET Package on your computer for development purpose from: http://www.gdpicture.com/download/download-gdpicturenet.php-License Agreement: http://www.gdpicture.com/license/license-gdpicture-dotnet.php-Error code: 1
+   at gdpicture_᜻.gdpicture_ᜀ()
+   at gdpicture_᜻.gdpicture_ᜈ()
+   at gdpicture_᜻.gdpicture_ᜊ()
+   at gdpicture_᜻.gdpicture_ᜦ()
+   at GdPicture10.GdPicturePDF.ResetGraphicsState()
+   at Gss.Oasis.Core.Server.Services.ResourceService.GetPageUsingAccusoft(String pAttachmentName, String pAT_Code, Int32 pPageno, String pKey, String pApplication_setup, String pAccusoftHostName) in D:\OASIS 5.0\Development\Windows\FX\Gss.Oasis.Core\Gss.Oasis.Core.Server.Services\Server.Services\ResourceService.vb:line 606
+GdpicturePdfBack SaveToFileSystem.Exception: Please install GdPicture.NET Package on your computer for development purpose from: http://www.gdpicture.com/download/download-gdpicturenet.php-License Agreement: http://www.gdpicture.com/license/license-gdpicture-dotnet.php-Error code: 1
+   at gdpicture_᜻.gdpicture_ᜀ()
+   at gdpicture_᜻.gdpicture_ᜈ()
+   at gdpicture_᜻.gdpicture_ᜊ()
+   at gdpicture_᜻.gdpicture_ᜦ()
+   at GdPicture10.GdPicturePDF.SaveToFile(String FilePath, Boolean PackDocument)
+   at GdPicture10.GdPicturePDF.SaveToFile(String FilePath)
+   at Gss.Oasis.Core.Server.Services.ResourceService.GetPageUsingAccusoft(String pAttachmentName, String pAT_Code, Int32 pPageno, String pKey, String pApplication_setup, String pAccusoftHostName) in D:\OASIS 5.0\Development\Windows\FX\Gss.Oasis.Core\Gss.Oasis.Core.Server.Services\Server.Services\ResourceService.vb:line 612Attachment NameD:\FX_SQA_RIL_CES\1944042202.pdf
+test text
+test text
+test text
